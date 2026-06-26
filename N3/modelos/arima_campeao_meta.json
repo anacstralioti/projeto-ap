@@ -1,0 +1,20 @@
+{
+  "modelo": "ARIMA(2, 1, 2)",
+  "ordem": [
+    2,
+    1,
+    2
+  ],
+  "aic": 26221.52,
+  "treino": {
+    "inicio": "2021-01-30",
+    "fim": "2026-03-19",
+    "obs": 1904
+  },
+  "metricas_teste": {
+    "MAE": 19952.37,
+    "RMSE": 23278.73,
+    "MAPE_%": 19.24
+  },
+  "campeao_justificativa": "Menor RMSE entre os modelos formais; AIC minimo no grid; residuos proximos de ruido branco (Ljung-Box)."
+}

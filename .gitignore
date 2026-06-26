@@ -1,0 +1,29 @@
+# Credenciais e variáveis de ambiente - NUNCA enviar ao GitHub
+.env
+*.env
+
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Banco de dados local
+*.db
+
+# Runs offline do wandb (gerados automaticamente)
+wandb/
+
+# Modelos treinados (arquivos binários grandes)
+N3/modelos/*.pkl
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
